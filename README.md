@@ -29,6 +29,7 @@ JWT_SECRET_KEY=<your own secret key>
    /user/deleteuser      DELETE
   ```
   5. req body :
+ 
       ```
       {
        "name": "",
@@ -36,7 +37,7 @@ JWT_SECRET_KEY=<your own secret key>
        "phone": "",
        "password": ""
       }
-  
+      ```
   
 ### OR YOU CAN DIRECTLY USE THIS API WHICH I HAVE HOSTED ON _RENDER_ 
 
