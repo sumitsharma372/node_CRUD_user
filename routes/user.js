@@ -5,8 +5,6 @@ const { getUser, signupUser, loginUser, updateUser, deleteUser} = require('./../
 const auth = require('../middleware/auth')
 
 
-
-
 router.post('/signupuser', [
     body('name').isLength({ min: 4 }),
     body('email').isEmail(),
@@ -29,6 +27,10 @@ router.patch('/updateuser', auth, [
 ], updateUser)
 
 router.delete('/deleteuser', auth,  deleteUser)
+
+router.get('/', (req, res) => {
+    res.status(200).send('<h1>User Auth API</h1><br/><br/><p><strong>Visit the end points to use this API.</strong></p>')
+})
 
 
 module.exports = router
