@@ -13,7 +13,7 @@ MONGO_URI=<your own mongodb database url>
 PORT=4000
 JWT_SECRET_KEY=<your own secret key>
 ```
-2. run the command ```npm install && npm start```
+2. run the command ```npm install``` and to start the application run ```npm start```
 3. To Test the api use any REST API Tester e.g POSTMAN
 4. The end points are:
 ```
