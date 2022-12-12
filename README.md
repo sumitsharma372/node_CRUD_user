@@ -5,6 +5,8 @@ This ia a REST api of users with authorization where user can signup, login, upd
 
 **HOW TO USE THIS API:**
 
+Clone this repo using the command ```git clone <repo_link>```
+
 1. Make a **.env** file with the following lines
 ```
 MONGO_URI=<your own mongodb database url>
