@@ -1,5 +1,5 @@
 # node_CRUD_user
-This ia a REST api of users with authorization where user can signup, login, update and delete his account
+This ia a REST api of users with authorization where user can signup, login, update and delete their account
 
 
 
