@@ -1,5 +1,5 @@
 # node_CRUD_user
-This ia a REST api of users with authorization where user can signup, login, update and delete his account
+This ia a REST api of users with authorization where user can signup, login, update and delete their account
 
 
 
@@ -41,6 +41,6 @@ JWT_SECRET_KEY=<your own secret key>
   
 ### OR YOU CAN DIRECTLY USE THIS API WHICH I HAVE HOSTED ON _RENDER_ 
 
-  - Use the link : [https://node-api-users.onrender.com](https://node-api-users.onrender.com)
+  - Use the link : [https://node-api-users.onrender.com](https://node-api-users.onrender.com/user/getuser)
   - Use can use this in any API TESTER like POSTMAN or [TALEND API Tester](https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm?hl=en) Chrome Web Extension
   - Now you can use the end points stated in __Point 4__
