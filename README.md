@@ -5,7 +5,7 @@ This ia a REST api of users with authorization where user can signup, login, upd
 
 **HOW TO USE THIS API:**
 
-Clone this repo using the command ```git clone <repo_link>```
+Clone this repo using the command ```git clone https://github.com/sumitsharma372/node_CRUD_user.git```
 
 1. Make a **.env** file with the following lines
 ```
